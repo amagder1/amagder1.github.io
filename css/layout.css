@@ -75,6 +75,10 @@ header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
 }
+header .banner-text h3 a:hover {
+   color: #11ABB0;
+}
+
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
@@ -96,6 +100,9 @@ header .social li {
 }
 header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
+
+header .infolink a { color: #fff; }
+header .infolink a:hover { color: #11ABB0!important; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -242,8 +249,11 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #resume a:visited  { color: #313131; }
+#resume a:hover, #resume a:focus { color: #11ABB0; }
+
+.education a, .education a:visited {color:#6E7881!important;}
+.education a:hover, .education a:focus {color:#11ABB0!important;}
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
